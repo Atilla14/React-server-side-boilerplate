@@ -35,3 +35,13 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+
+# Remove bundle files
+bundle.js
+page.bundle.js
+
+# Mac related stuff
+.DS_Store
+public/.DS_Store
+public/js/.DS_Store
