@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOMServer from 'react-dom/server'
-import App from '../public/js/app'
+import App from './public/js/app'
 
 module.exports = function() {
 
@@ -14,7 +14,7 @@ module.exports = function() {
         <div id='content'>
           <App />
         </div>
-        <script src="../bundle.js" />
+        <script src="./bundle.js" type="text/javascript" />
       </body>
     </html>
   )
