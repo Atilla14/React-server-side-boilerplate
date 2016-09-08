@@ -1,0 +1,33 @@
+{
+  "name": "react-server-side-boilerplate",
+  "version": "1.0.0",
+  "description": "React server side rendering with node js, using webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --colors --progress --labeled-modules --config webpack.config.dev.js && node server" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Atilla14/react-server-side-boilerplate.git"
+  },
+  "author": "Atilla14",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Atilla14/react-server-side-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Atilla14/react-server-side-boilerplate#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "webpack": "^1.13.2"
+  }
+}
