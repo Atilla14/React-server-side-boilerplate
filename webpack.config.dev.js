@@ -6,7 +6,7 @@ const client = {
   entry: './public/js/entry.jsx',
   output: {
     filename: 'bundle.js',
-    path: './'
+    path: 'public'
   },
   resolve: {
     extensions: ['', '.json', '.js', '.jsx']
@@ -29,11 +29,11 @@ const client = {
 
 const server = {
   name: 'server side',
-  entry: './server/page.js',
+  entry: './page.js',
   target: 'node',
   output: {
     filename: 'page.bundle.js',
-    path: './server/',
+    path: './',
     libraryTarget: "commonjs2"
   },
   resolve: {
